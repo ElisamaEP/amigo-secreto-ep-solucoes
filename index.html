@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto - EP SOLUÇÕES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho com logo -->
+    <header>
+        <img src="img/logo-ep-solucoes.png" alt="Logo EP Soluções" class="logo">
+        <h1>Amigo Secreto EP SOLUÇÕES</h1>
+    </header>
+
+    <!-- Área para adicionar nomes -->
+    <main>
+        <div class="input-area">
+            <input type="text" id="nome" placeholder="Digite um nome">
+            <button id="btnAdicionar">Adicionar</button>
+        </div>
+
+        <!-- Lista dos nomes adicionados -->
+        <ul id="listaNomes"></ul>
+
+        <!-- Botões de ação -->
+        <div class="botoes">
+            <button id="btnSortear">Sortear Amigo</button>
+            <button id="btnLimpar">Limpar Lista</button>
+        </div>
+
+        <!-- Resultado do sorteio -->
+        <div id="resultado"></div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
